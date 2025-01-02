@@ -6,17 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B3A102D12D2728F40045A2F0 /* bbt_struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A102CD2D2728F40045A2F0 /* bbt_struct.swift */; };
+		B3A102D22D2728F40045A2F0 /* BigBangTheoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A102CE2D2728F40045A2F0 /* BigBangTheoryApp.swift */; };
+		B3A102D32D2728F40045A2F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A102CF2D2728F40045A2F0 /* ContentView.swift */; };
+		B3A102D42D2728F40045A2F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A102CA2D2728F40045A2F0 /* Preview Assets.xcassets */; };
+		B3A102D52D2728F40045A2F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A102CC2D2728F40045A2F0 /* Assets.xcassets */; };
+		B3A102D72D27297B0045A2F0 /* BigBang.json in Resources */ = {isa = PBXBuildFile; fileRef = B3A102D62D27297B0045A2F0 /* BigBang.json */; };
+		B3A102D92D2729910045A2F0 /* BigBangTest.json in Resources */ = {isa = PBXBuildFile; fileRef = B3A102D82D2729910045A2F0 /* BigBangTest.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B3A102B62D27251A0045A2F0 /* BigBangTheory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigBangTheory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A102CA2D2728F40045A2F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3A102CC2D2728F40045A2F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3A102CD2D2728F40045A2F0 /* bbt_struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bbt_struct.swift; sourceTree = "<group>"; };
+		B3A102CE2D2728F40045A2F0 /* BigBangTheoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBangTheoryApp.swift; sourceTree = "<group>"; };
+		B3A102CF2D2728F40045A2F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3A102D62D27297B0045A2F0 /* BigBang.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BigBang.json; sourceTree = "<group>"; };
+		B3A102D82D2729910045A2F0 /* BigBangTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BigBangTest.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B3A102B82D27251A0045A2F0 /* BigBangTheory */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BigBangTheory;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B3A102B32D27251A0045A2F0 /* Frameworks */ = {
@@ -32,7 +41,7 @@
 		B3A102AD2D27251A0045A2F0 = {
 			isa = PBXGroup;
 			children = (
-				B3A102B82D27251A0045A2F0 /* BigBangTheory */,
+				B3A102D02D2728F40045A2F0 /* BigBangTheory */,
 				B3A102B72D27251A0045A2F0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,36 @@
 				B3A102B62D27251A0045A2F0 /* BigBangTheory.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B3A102CB2D2728F40045A2F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B3A102CA2D2728F40045A2F0 /* Preview Assets.xcassets */,
+				B3A102D82D2729910045A2F0 /* BigBangTest.json */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3A102D02D2728F40045A2F0 /* BigBangTheory */ = {
+			isa = PBXGroup;
+			children = (
+				B3A102CC2D2728F40045A2F0 /* Assets.xcassets */,
+				B3A102DA2D272AB80045A2F0 /* Resources */,
+				B3A102CD2D2728F40045A2F0 /* bbt_struct.swift */,
+				B3A102CE2D2728F40045A2F0 /* BigBangTheoryApp.swift */,
+				B3A102CF2D2728F40045A2F0 /* ContentView.swift */,
+				B3A102CB2D2728F40045A2F0 /* Preview Content */,
+			);
+			path = BigBangTheory;
+			sourceTree = "<group>";
+		};
+		B3A102DA2D272AB80045A2F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B3A102D62D27297B0045A2F0 /* BigBang.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +98,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B3A102B82D27251A0045A2F0 /* BigBangTheory */,
 			);
 			name = BigBangTheory;
 			packageProductDependencies = (
@@ -109,6 +145,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A102D42D2728F40045A2F0 /* Preview Assets.xcassets in Resources */,
+				B3A102D72D27297B0045A2F0 /* BigBang.json in Resources */,
+				B3A102D92D2729910045A2F0 /* BigBangTest.json in Resources */,
+				B3A102D52D2728F40045A2F0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A102D12D2728F40045A2F0 /* bbt_struct.swift in Sources */,
+				B3A102D22D2728F40045A2F0 /* BigBangTheoryApp.swift in Sources */,
+				B3A102D32D2728F40045A2F0 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
