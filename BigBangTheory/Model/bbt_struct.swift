@@ -6,7 +6,7 @@
 //
 import Foundation
 
-struct BigBang: Codable {
+struct BigBang: Codable { // todos los modelos siempre deben ser un struct
     let id: Int
     let url: URL
     let name: String
@@ -16,3 +16,6 @@ struct BigBang: Codable {
     let image: String
     let summary: String
 }
+
+typealias BBs = [BigBang] // esto es azucar sintactico
+ 
