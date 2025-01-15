@@ -11,7 +11,7 @@ import SwiftUI
 struct BigBangTheoryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SeasonsView()
         }
     }
 }

@@ -7,26 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B305E4392D31B6F800E7A713 /* EpisodesBySeasonView.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = B305E4382D31B6F600E7A713 /* EpisodesBySeasonView.swift.swift */; };
+		B305E43B2D31BD1900E7A713 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B305E43A2D31BD1900E7A713 /* FavoritesView.swift */; };
+		B305E43D2D31BD2500E7A713 /* SeenEpisodesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B305E43C2D31BD2500E7A713 /* SeenEpisodesView.swift */; };
 		B3A102D12D2728F40045A2F0 /* bbt_struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A102CD2D2728F40045A2F0 /* bbt_struct.swift */; };
 		B3A102D22D2728F40045A2F0 /* BigBangTheoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A102CE2D2728F40045A2F0 /* BigBangTheoryApp.swift */; };
-		B3A102D32D2728F40045A2F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A102CF2D2728F40045A2F0 /* ContentView.swift */; };
 		B3A102D42D2728F40045A2F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A102CA2D2728F40045A2F0 /* Preview Assets.xcassets */; };
 		B3A102D52D2728F40045A2F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A102CC2D2728F40045A2F0 /* Assets.xcassets */; };
 		B3A102D72D27297B0045A2F0 /* BigBang.json in Resources */ = {isa = PBXBuildFile; fileRef = B3A102D62D27297B0045A2F0 /* BigBang.json */; };
 		B3A102D92D2729910045A2F0 /* BigBangTest.json in Resources */ = {isa = PBXBuildFile; fileRef = B3A102D82D2729910045A2F0 /* BigBangTest.json */; };
-		B3A102DE2D272D200045A2F0 /* Repo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A102DD2D272D1D0045A2F0 /* Repo.swift */; };
+		B3A102E12D272EF40045A2F0 /* BBT_viewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A102E02D272EEA0045A2F0 /* BBT_viewmodel.swift */; };
+		B3A102E52D299C210045A2F0 /* seasonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A102E42D299C210045A2F0 /* seasonsView.swift */; };
+		B3A102E92D29A5240045A2F0 /* accesory_functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A102E82D29A5180045A2F0 /* accesory_functions.swift */; };
+		B3A102EB2D29EBD50045A2F0 /* chapterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A102EA2D29EBD50045A2F0 /* chapterDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B305E4382D31B6F600E7A713 /* EpisodesBySeasonView.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesBySeasonView.swift.swift; sourceTree = "<group>"; };
+		B305E43A2D31BD1900E7A713 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		B305E43C2D31BD2500E7A713 /* SeenEpisodesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeenEpisodesView.swift; sourceTree = "<group>"; };
 		B3A102B62D27251A0045A2F0 /* BigBangTheory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigBangTheory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A102CA2D2728F40045A2F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3A102CC2D2728F40045A2F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3A102CD2D2728F40045A2F0 /* bbt_struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bbt_struct.swift; sourceTree = "<group>"; };
 		B3A102CE2D2728F40045A2F0 /* BigBangTheoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigBangTheoryApp.swift; sourceTree = "<group>"; };
-		B3A102CF2D2728F40045A2F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3A102D62D27297B0045A2F0 /* BigBang.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BigBang.json; sourceTree = "<group>"; };
 		B3A102D82D2729910045A2F0 /* BigBangTest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BigBangTest.json; sourceTree = "<group>"; };
-		B3A102DD2D272D1D0045A2F0 /* Repo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repo.swift; sourceTree = "<group>"; };
+		B3A102E02D272EEA0045A2F0 /* BBT_viewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBT_viewmodel.swift; sourceTree = "<group>"; };
+		B3A102E42D299C210045A2F0 /* seasonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seasonsView.swift; sourceTree = "<group>"; };
+		B3A102E82D29A5180045A2F0 /* accesory_functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accesory_functions.swift; sourceTree = "<group>"; };
+		B3A102EA2D29EBD50045A2F0 /* chapterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chapterDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +50,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B305E43E2D34289F00E7A713 /* Vistas */ = {
+			isa = PBXGroup;
+			children = (
+				B3A102E42D299C210045A2F0 /* seasonsView.swift */,
+				B305E4382D31B6F600E7A713 /* EpisodesBySeasonView.swift.swift */,
+				B3A102EA2D29EBD50045A2F0 /* chapterDetailsView.swift */,
+				B3A102E82D29A5180045A2F0 /* accesory_functions.swift */,
+				B305E43A2D31BD1900E7A713 /* FavoritesView.swift */,
+				B305E43C2D31BD2500E7A713 /* SeenEpisodesView.swift */,
+			);
+			path = Vistas;
+			sourceTree = "<group>";
+		};
 		B3A102AD2D27251A0045A2F0 = {
 			isa = PBXGroup;
 			children = (
@@ -68,12 +91,11 @@
 		B3A102D02D2728F40045A2F0 /* BigBangTheory */ = {
 			isa = PBXGroup;
 			children = (
-				B3A102CC2D2728F40045A2F0 /* Assets.xcassets */,
 				B3A102CE2D2728F40045A2F0 /* BigBangTheoryApp.swift */,
-				B3A102CF2D2728F40045A2F0 /* ContentView.swift */,
-				B3A102DF2D272E690045A2F0 /* ViewModel */,
-				B3A102DC2D272D150045A2F0 /* Repo */,
 				B3A102DB2D272B9C0045A2F0 /* Model */,
+				B3A102DF2D272E690045A2F0 /* ViewModel */,
+				B305E43E2D34289F00E7A713 /* Vistas */,
+				B3A102CC2D2728F40045A2F0 /* Assets.xcassets */,
 				B3A102DA2D272AB80045A2F0 /* Resources */,
 				B3A102CB2D2728F40045A2F0 /* Preview Content */,
 			);
@@ -96,17 +118,10 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		B3A102DC2D272D150045A2F0 /* Repo */ = {
-			isa = PBXGroup;
-			children = (
-				B3A102DD2D272D1D0045A2F0 /* Repo.swift */,
-			);
-			path = Repo;
-			sourceTree = "<group>";
-		};
 		B3A102DF2D272E690045A2F0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				B3A102E02D272EEA0045A2F0 /* BBT_viewmodel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -186,10 +201,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3A102E92D29A5240045A2F0 /* accesory_functions.swift in Sources */,
 				B3A102D12D2728F40045A2F0 /* bbt_struct.swift in Sources */,
+				B305E43D2D31BD2500E7A713 /* SeenEpisodesView.swift in Sources */,
+				B305E4392D31B6F800E7A713 /* EpisodesBySeasonView.swift.swift in Sources */,
+				B3A102E52D299C210045A2F0 /* seasonsView.swift in Sources */,
+				B305E43B2D31BD1900E7A713 /* FavoritesView.swift in Sources */,
+				B3A102EB2D29EBD50045A2F0 /* chapterDetailsView.swift in Sources */,
+				B3A102E12D272EF40045A2F0 /* BBT_viewmodel.swift in Sources */,
 				B3A102D22D2728F40045A2F0 /* BigBangTheoryApp.swift in Sources */,
-				B3A102D32D2728F40045A2F0 /* ContentView.swift in Sources */,
-				B3A102DE2D272D200045A2F0 /* Repo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
